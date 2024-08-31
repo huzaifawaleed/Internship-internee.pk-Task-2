@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-color: rgb(255, 217, 0);
+}
+.parent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    width: 100%;
+    background-color: chartreuse;
+    padding: 25px;
+    border-radius: 10px;
+}
+.parent h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    color: white;
+}
+.parent .input-field{
+    margin-bottom: 10px;
+}
+.parent .input-field input[type="text"],
+.parent textarea  {
+width: 100%;
+border: 1px solid black;
+padding: 10px;
+border-radius: 10px;
+}
+.parent textarea  {
+    height: 70px;
+    resize: none;
+}
+.parent .btn input[type=submit] {
+
+    border: 0;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background: rgb(255, 217, 0);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+.img{
+height: 200px;
+width: 200px;
+}
